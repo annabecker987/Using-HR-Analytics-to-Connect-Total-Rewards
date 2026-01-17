@@ -1,153 +1,137 @@
-Using HR Analytics to Connect Total Rewards to Engagement & Turnover
+# Using HR Analytics to Connect Total Rewards to Engagement & Turnover
 
-HR Analytics | Tableau | Excel | Predictive Modeling | Workforce Insights
+**HR Analytics | Tableau | Excel | Predictive Modeling | Workforce Insights**
 
-This repository demonstrates how HR analytics can be used to connect total rewards, workload, engagement, and leadership quality to employee retention and performance outcomes. The project translates HR data into actionable insights leaders can use to reduce turnover and improve employee experience.
+This repository demonstrates how HR analytics can be used to connect total rewards, workload, engagement, and leadership quality to employee retention and performance outcomes.
 
-Business Problem
+---
 
-Despite competitive compensation, turnover risk remained elevated and engagement uneven across departments and states. This analysis answers:
+## Business Problem
 
-What actually drives engagement and turnover?
+Despite competitive compensation, turnover risk remained elevated and engagement uneven across departments and states. This analysis focuses on identifying what truly drives engagement and retention so HR leaders can prioritize high-impact actions.
 
-Does pay matter more than workload or manager quality?
+---
 
-Where should HR leaders focus limited resources for maximum impact?
+## Data Used
 
-Data Used (What You See in the Visuals)
+- Employee engagement and sentiment data  
+- Compensation and pay distribution by state and department  
+- Overtime hours, manager satisfaction, and turnover outcomes  
 
-Employee engagement and sentiment scores
+---
 
-Compensation and pay distribution by state and department
+## Key Insights (Visual Evidence)
 
-Overtime hours, training, and manager satisfaction
+### Employee Sentiment Patterns
 
-Turnover outcomes (1 = Left, 0 = Stayed)
-
-Key Insights (From the Visuals)
-Employee Sentiment Patterns
-
-### Employee Sentiment Data
 ![Employee Sentiment Data](Visuals/Employee%20Sentiment%20Data.png)
 
-Lower sentiment consistently appears alongside workload and limited advancement themes.
+Employee sentiment highlights recurring themes associated with engagement levels. Lower sentiment frequently appears alongside workload and limited advancement, while higher sentiment aligns with flexibility, leadership support, and development.
 
-Higher sentiment aligns with flexibility, leadership support, and development.
+---
 
-Engagement by Theme & Department
+### Engagement by Theme & Department
 
-[INSERT VISUAL: Average Sentiment Score by Theme Bar Chart]
-[INSERT VISUAL: Trellis Chart – Sentiment by Department and Month]
+![Employee Sentiment Tableau](Visuals/Employee%20Sentiment%20Tableau.png)
 
-Work-Life Balance and Culture score highest overall.
+Work-Life Balance and Culture score highest overall, while Workload and Growth & Development trend lower. Trellis views show greater volatility in Sales and Operations compared to more stable patterns in HR and Finance.
 
-Workload and Growth & Development score lower, especially in Sales and Operations.
+---
 
-HR and Finance show more stable sentiment trends than operational teams.
+### Diagnostic Workforce Data
 
-Pay Distribution & Equity Signals
+![Diagnostic Data](Visuals/Diagnostic%20Data.png)
 
-[INSERT VISUAL: Pay Distribution by State and Department Box Plot]
+This dataset integrates compensation, engagement, overtime, manager satisfaction, and turnover at the employee level, enabling cross-functional and regional analysis.
 
-States with wider pay ranges show higher turnover among lower-paid employees.
+---
 
-Sales and IT trend higher in pay distributions; HR clusters lower.
+### Pay Distribution & Equity Signals
 
-Outliers suggest potential pay compression or equity review needs.
+![Outliers Tableau](Visuals/Outliers%20Tableau.png)
 
-KPI Snapshot
+Pay distribution by state and department reveals wider pay ranges in some regions and tighter clustering in others. Turnover tends to concentrate near the lower end of pay ranges, highlighting potential equity and retention risks.
 
-[INSERT VISUAL: KPI Tiles – Average Engagement, Average Pay, Overall Turnover]
+---
 
-High-level workforce health indicators provide immediate context before deeper analysis.
+### KPI Snapshot: Engagement, Pay & Turnover
 
-Pay & Engagement Relationship
+![Calculated Field KPI](Visuals/Calculated%20Field%20KPI.png)
 
-[INSERT VISUAL: Pay vs. Engagement Scatter Plot with Trend Line]
+Key workforce KPIs provide a high-level snapshot of organizational health, including average engagement, average pay, and overall turnover rate.
 
-Engagement increases as pay increases, confirming compensation matters.
+---
 
-Pay alone does not fully explain turnover risk.
+### Pay, Engagement & Turnover Correlation
 
-Engagement by State
+![Correlation KPI Turnover Dashboard](Visuals/Correlation%20KPI%20Turnover%20Dashboard.png)
 
-[INSERT VISUAL: Engagement by State Map]
+Correlation analysis shows a positive relationship between pay and engagement, while indicating that compensation alone does not fully explain turnover risk.
 
-Highest engagement: New York, California, Washington
+---
 
-Lowest engagement: Florida, Illinois, Arizona
+### Correlation Matrix: Manager Satisfaction & Turnover
 
-Regional leadership and workload differences likely contribute.
+![Correlation Matrix](Visuals/Correlation%20Matrix.png)
 
-Predictive & Diagnostic Findings
-Overtime as the Strongest Predictor
+The correlation matrix reveals a very strong negative relationship between manager satisfaction and turnover, reinforcing leadership quality as a critical retention driver.
 
-[INSERT VISUAL: Decision Tree – Overtime Hours Split]
+---
 
-Monthly overtime hours emerge as the top predictor of turnover risk.
+## Predictive & Diagnostic Findings
 
-Employees exceeding ~0.46 overtime hours per month are significantly more likely to leave.
+### Overtime as the Strongest Predictor
 
-Manager Satisfaction Drives Retention
+![Full Grown Decision Tree](Visuals/Full%20Grown%20Decision%20Tree.png)
 
-[INSERT VISUAL: Manager Satisfaction vs. Turnover Scatter Plot]
-[INSERT VISUAL: Correlation Matrix – Manager Satisfaction & Turnover]
+The decision tree identifies monthly overtime hours as the strongest predictor of turnover risk, with a clear split around 0.46 overtime hours per month.
 
-Strong negative relationship between manager satisfaction and turnover.
+---
 
-Employees who leave report ~1.4 points lower manager satisfaction.
+### Regression Results: Manager Satisfaction & Turnover
 
-Leadership quality is a primary retention lever.
+![Regression Statistics](Visuals/Regression%20Statistics.png)
 
-Model Validation
+Regression analysis shows a strong relationship between turnover and manager satisfaction, with employees who leave reporting significantly lower satisfaction with their managers.
 
-[INSERT VISUAL: Confusion Matrix & Classification Summary]
+---
 
-Predictive model shows perfect alignment between predicted and actual outcomes in this dataset.
+### Model Validation
 
-Confirms workload, engagement, pay, and manager satisfaction as strong predictors.
+![Validation Classification Summary](Visuals/Validation%20Classification%20Summary.png)
 
-Regression Results
+The classification summary demonstrates strong predictive performance, confirming that workload, engagement, pay, and manager satisfaction are effective predictors of turnover in this dataset.
 
-[INSERT VISUAL: Excel Regression Output Table]
+---
 
-Regression analysis shows a strong explanatory relationship between turnover and manager satisfaction.
+## Results Summary
 
-Results reinforce leadership effectiveness as a critical driver of engagement and retention.
+- Pay increases engagement but is not the strongest retention driver  
+- Overtime workload is the most consistent predictor of turnover risk  
+- Manager satisfaction shows the strongest relationship with retention  
+- Regions with wider pay gaps experience higher turnover among lower-paid employees  
 
-Results Summary
+---
 
-Pay positively influences engagement, but it is not the strongest retention driver.
+## Practical Takeaways for HR Leaders
 
-Overtime workload is the most consistent predictor of turnover risk.
+- Balance workloads and reduce excessive overtime  
+- Strengthen frontline leadership effectiveness  
+- Address pay compression and equity risk areas  
+- Monitor engagement and sentiment continuously  
 
-Manager satisfaction shows the strongest relationship with engagement and retention.
+---
 
-Regions with wider pay gaps experience higher turnover among lower-paid employees.
+## Tools Demonstrated
 
-Sentiment patterns reinforce quantitative findings.
+- Tableau dashboards and calculated fields  
+- Excel regression and correlation analysis  
+- Predictive modeling (decision tree & validation)  
+- Visual storytelling for HR decision-making  
 
-Practical Takeaways for HR Leaders
+---
 
-Balance workloads and reduce excessive overtime
+## Author
 
-Invest in frontline manager effectiveness
-
-Address pay compression and equity risk areas
-
-Monitor engagement and sentiment continuously
-
-Tools Demonstrated
-
-Tableau dashboards and calculated fields
-
-Excel regression and correlation analysis
-
-Predictive modeling (decision tree & classification validation)
-
-Visual storytelling for HR decision-making
-
-Author
-
-Antonique (Anna) Becker
-HR Analytics | Total Rewards | People Analytics
+**Antonique (Anna) Becker**  
+HR Analytics | Total Rewards | People Analytics  

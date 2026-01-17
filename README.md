@@ -27,7 +27,8 @@ Turnover outcomes (1 = Left, 0 = Stayed)
 Key Insights (From the Visuals)
 Employee Sentiment Patterns
 
-[INSERT VISUAL: Employee Sentiment Table]
+### Employee Sentiment Data
+![Employee Sentiment Data](Visuals/Employee%20Sentiment%20Data.png)
 
 Lower sentiment consistently appears alongside workload and limited advancement themes.
 

@@ -48,7 +48,7 @@ This dataset integrates compensation, engagement, overtime, manager satisfaction
 
 ### Pay Distribution & Equity Signals
 
-![Outliers Tableau](Visuals/Outliers%20Tableau.png)
+![Outliers Tableau](Visuals/Outliers-Tableau.png)
 
 Pay distribution by state and department reveals wider pay ranges in some regions and tighter clustering in others. Turnover tends to concentrate near the lower end of pay ranges, highlighting potential equity and retention risks.
 

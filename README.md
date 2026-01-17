@@ -1,3 +1,5 @@
+![Employee Sentiment Tableau](Visuals/Employee%20Sentiment%20Tableau.png)
+
 # Using HR Analytics to Connect Total Rewards to Engagement & Turnover
 
 **HR Analytics | Tableau | Excel | Predictive Modeling | Workforce Insights**

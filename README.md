@@ -98,7 +98,7 @@ Regression analysis shows a strong relationship between turnover and manager sat
 
 ### Model Validation
 
-![Validation Classification Summary](Visuals/Validation%20Classification%20Summary.png)
+![Validation Classification Summary](Visuals/Validation%20Classification%20Summary%20Solver.png)
 
 The classification summary demonstrates strong predictive performance, confirming that workload, engagement, pay, and manager satisfaction are effective predictors of turnover in this dataset.
 
